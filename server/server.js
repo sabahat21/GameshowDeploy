@@ -24,7 +24,7 @@ setInterval(() => {
   cleanupOldGames();
 }, 60 * 60 * 1000);
 
-["MONGODB_URI", "DB_NAME", "PORT"].forEach((key) => {
+["MONGODB_URI", "DB_NAME"].forEach((key) => {
   if (!process.env[key]) {
     throw new Error(`❌ Missing required env variable: ${key}`);
   }
