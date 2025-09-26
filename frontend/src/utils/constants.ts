@@ -1,6 +1,6 @@
 // Game constants and configuration
 export const GAME_CONFIG = {
-  SOCKET_URL: "http://localhost:5004",
+  SOCKET_URL: "https://gameshowdeploy.onrender.com",
   ANSWER_TIME_LIMIT: 30000, // 30 seconds
   MIN_PLAYERS: 2,
   MAX_STRIKES: 3,
