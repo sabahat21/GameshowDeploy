@@ -8,7 +8,7 @@ export const setupServer = () => {
   const app = express();
   const server = createServer(app);
   const corsOptions = {
-    origin: "https://gameshow-deploy.vercel.app/",
+    origin: "https://gameshow-deploy.vercel.app",
     methods: ["GET", "POST"],
     credentials: true, // <- optional but useful
   };
